@@ -29,11 +29,29 @@
 
 ## Quick start
 
-Some text
+First we will need to install Stable-Diffusion's Webui on your system, kindly follow all the steps below 
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+1. ```sh
+brew install cmake protobuf rust python@3.10 git wget
+```
+2. ```sh
+git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
+```
+3. https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main and download v1-5-pruned.ckpt and move this downloaded file into stable-diffusion-webui/models/Stable-diffusion/
+
+4.```sh
+cd stable-diffusion-webui ; ./webui.sh
+```
+
+5. Go to 127.0.0.1:7860
+
+6. Go to http://127.0.0.1:7860 and click on the extensions and install from url 
+   Open "Extensions" tab.
+   Open "Install from URL" tab in the tab.
+   Enter https://github.com/Mikubill/sd-webui-controlnet.git to "URL for extension's git repository".
+   Press "Install" button.
+   Wait 5 seconds, and you will see the message "Installed into stable-diffusion-webui\extensions\sd-webui-controlnet. Use Installed tab to restart".
+   Go to "Installed" tab, click "Check for updates", and then click "Apply and restart UI". (The next time you can also use this method to update     ControlNet.)
 
 ## Status
 
