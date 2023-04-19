@@ -13,7 +13,7 @@ pygame.init()
 # setup sd inputs
 url = "http://127.0.0.1:7860"
 prompt = "A painting by Caravaggio"
-seed = 3456456767
+seed = 0 # Update your own seed if you prefer 
 
 # Set up the display
 screen = pygame.display.set_mode((1024, 512))
