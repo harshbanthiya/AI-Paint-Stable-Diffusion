@@ -76,3 +76,6 @@ brew install cmake protobuf rust python@3.10 git wget
     ```sh
     conda deactivate
     ```
+## Bugs and feature requests
+
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/harshbanthiya/Paint_Stable_Diffusion/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/harshbanthiya/Paint_Stable_Diffusion/issues/new).
